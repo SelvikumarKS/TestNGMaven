@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" parallel="methods" thread-count="2">
+<test name="Test Cases">
+<!--  --><groups>
+<run>
+<include name="Moto"></include>
+<include name="Vivo"></include>
+</run>
+</groups><!--  -->
+ <!--  -->
+ <classes>
+<class name="testNG.Demo"></class>
+<class name="testNG.DependencyDemo"></class>
+<class name="testNG.PriorityDemo"></class>
+<class name="testNG.SkipDemo"></class> 
+<class name="testNG.GroupingEx"></class><!--  -->
+<class name="testNG.ParallelTesting"></class>
+
+ </classes>
+</test>
+</suite>
+
